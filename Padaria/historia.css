@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sail', cursive;
+    background-attachment:fixed;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a .instagram{
+    padding-left: 160%;
+    width: 90px;
+    height: 50px;
+}
+
+
+nav {
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    right: 20%;
+    align-items: center;
+    background: #220909;
+}
+
+nav img {
+    left: 10%;
+    width: 70px;
+    height: 60px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    left: 1%;
+    letter-spacing: 2px;
+    margin-left: 70px;
+}
+
+.nav-list li a:hover{
+    color: #db9595;
+}
+
+main{
+    background: #753434;
+    height: 200px;
+    width: 1349px;
+}
+
+h1{
+    font-family: 'Sail', cursive;
+    top: 15%;
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    font-size: 90px;
+    color: #fff;
+}
+
+.coracao{
+    position: absolute;
+    left: 30%;
+}
+
+h2{
+   position: absolute;
+   top: 70%; 
+   left: 30%;
+   text-align: justify;
+}
+
+.coracao2{
+    position: absolute;
+    left: 30%;
+    top: 84%;
+}
+
+.galeria{
+    top: 70%;
+    left: 6%;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.galeria2{
+    top: 50%;
+    left: 80%;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.fotos{
+    position: relative;
+    margin-top: 45%;
+    left: 26%;
+    border-radius: 50px;
+    margin-left: 1%;
+    align-items: center;
+    display:flexbox;
+    height: 200px;
+    width: 200px;
+}
